@@ -1,0 +1,27 @@
+#TicTacToe{
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    padding: 10px;
+    align-items: center;    
+    justify-content: center;    
+  
+  }
+  .area{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(189, 60, 60);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 72pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .area:hover{
+    background-color: rgb(97, 36, 36);
+  }
+#Info{
+    text-align: center;
+    font-size: 18pt;
+}
